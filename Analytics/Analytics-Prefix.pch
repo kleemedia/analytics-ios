@@ -6,3 +6,7 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
 #endif
+
+#undef USE_ANALYTICS_ALL
+
+#define USE_ANALYTICS_SEGMENTIO 1
